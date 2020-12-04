@@ -1,7 +1,7 @@
 version: "2"
 services:
   jupyter:
-    build: .
+    build: nyradr/jupyter-docker:latest
     volumes:
       - .:/home/jovyan/work
     ports:
