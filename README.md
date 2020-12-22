@@ -11,6 +11,7 @@ This is an extension of the [https://hub.docker.com/r/jupyter/datascience-notebo
 - [matplotlib](https://matplotlib.org/)
 - [seaborn](https://seaborn.pydata.org/)
 - [plotly](https://plotly.com/)
+- [bokeh](https://bokeh.org/)
 
 The following extensions are enabled :
 

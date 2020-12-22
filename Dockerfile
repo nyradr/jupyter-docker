@@ -10,6 +10,7 @@ RUN conda install --yes pandas
 RUN conda install --yes matplotlib
 RUN conda install --yes seaborn
 RUN conda install --yes plotly
+RUN conda install --yes bokeh
 
 RUN jupyter nbextension enable spellchecker/main
 RUN jupyter nbextension enable hide_input_all/main
