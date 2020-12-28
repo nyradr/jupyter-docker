@@ -7,6 +7,7 @@ RUN conda install --yes jupyter_nbextensions_configurator
 RUN conda install --yes jupyter_dashboards -c conda-forge
 RUN conda install --yes ipywidgets
 RUN conda install --yes pandas
+RUN conda install --yes odfpy
 RUN conda install --yes matplotlib
 RUN conda install --yes seaborn
 RUN conda install --yes plotly
