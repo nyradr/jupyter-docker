@@ -6,5 +6,5 @@ services:
       - .:/home/jovyan/work
     ports:
       - 8888:8888
-    #command: start.sh jupyter lab --LabApp.token=''
-    command: start.sh jupyter notebook --NotebookApp.token=''
+    #command: start_nb.sh jupyter lab --LabApp.token=''
+    command: start_nb.sh jupyter notebook --NotebookApp.token=''
