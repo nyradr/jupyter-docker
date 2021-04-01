@@ -16,3 +16,4 @@ RUN conda install --yes plotly
 RUN conda install --yes bokeh
 RUN conda install --yes pyarrow
 RUN conda install --yes swifter -c conda-forge
+RUN conda install --yes -c conda-forge tsfresh 
